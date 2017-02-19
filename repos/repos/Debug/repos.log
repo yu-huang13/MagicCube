@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/12/5 13:07:26。
+     1>项目“C:\Users\HY\Documents\work\animation\homework3\repos\repos\repos.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin\repos.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin\repos.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin\repos.lib" /MACHINE:X86 Debug\main.obj
+         Debug\vector3.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwInit，该符号在函数 "void __cdecl getScreenSize(void)" (?getScreenSize@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwGetMonitors，该符号在函数 "void __cdecl getScreenSize(void)" (?getScreenSize@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwGetVideoMode，该符号在函数 "void __cdecl getScreenSize(void)" (?getScreenSize@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，该符号在函数 "void __cdecl getScreenSize(void)" (?getScreenSize@@YAXXZ) 中被引用
+     1>../bin\repos.exe : fatal error LNK1120: 4 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\HY\Documents\work\animation\homework3\repos\repos\repos.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.47
